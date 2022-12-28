@@ -1,0 +1,26 @@
+.card_wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: #bde1d3;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+
+
+/* .card_hid {
+  display: none;
+} */
+
+.card_time {
+  user-select: none;
+}

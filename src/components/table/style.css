@@ -1,0 +1,28 @@
+.table {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.table_card {
+  width: 150px;
+  background-color: aliceblue;
+  padding: 5px 20px 20px;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.drop_card {
+  background: #bde1d3;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
